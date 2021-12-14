@@ -1,0 +1,33 @@
+{
+  "name": "saladikhanov",
+  "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saladikhanov/Saladikhanov.git"
+  },
+  "keywords": [
+    "readme.md",
+    "github",
+    "actions",
+    "dynamic",
+    "javascript"
+  ],
+  "author": "Thomas Guibert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thmsgbrt/thmsgbrt/issues"
+  },
+  "homepage": "https://github.com/Saladikhanov/Saladikhanov#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.1.0",
+    "puppeteer": "^13.0.0"
+  }
+}
