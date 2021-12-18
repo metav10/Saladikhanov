@@ -22,5 +22,5 @@
 </p>
 
 ------------
-<p align="center">This <i>README</i> file is generated <b>every 3 hours</b>!</br>Last refresh: Saturday, 18 December, 16:56 GMT+2
+<p align="center">This <i>README</i> file is generated <b>manually</b>!</br>Last refresh: Saturday, 18 December, 16:56 GMT+2
 
