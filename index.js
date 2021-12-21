@@ -38,11 +38,11 @@ async function setWeatherInformation() {
     )
       .then(r => r.json())
       .then(r => {
-        if(!r) return;
+        if(!r) throw new Error("response is undefind");
         const { weather, main: { temp }, sys: { sunrise, sunset}} = r;
         const { description, icon } = weather[0];
      
-        if(!description || !icon || !temp || !sunrise || !sunset) return;
+        if(!description || !icon || !temp || !sunrise || !sunset) throw new Error("some data is undefind");;
          
         const timezonePreset = {
           hour: '2-digit',
